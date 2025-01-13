@@ -83,6 +83,7 @@ h1 {
 .banner-btn:hover{
     background-color:#022d20e2;
 }
+
 /* Pillars of BD 2.0 */
 
 .pillars-body{
@@ -106,11 +107,14 @@ h1 {
  text-align: left;
 }
 
-.box {
+.vision-box {
  display: flex;
  flex-direction: row;
- flex-wrap: nowrap;
  gap: 50px;
+ background-color: transparent; 
+ padding: 0; 
+ border: none; 
+ 
 }
 
 #green {
@@ -177,7 +181,9 @@ h1 {
 
 .button-ylw:hover {
  background-color: rgb(245, 146, 71);
-}/* Quote */
+}
+
+/* Quote */
 
 .quote-box {
     background-color:white;
