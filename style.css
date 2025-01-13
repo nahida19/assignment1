@@ -1,0 +1,85 @@
+.fira-sans-condensed-thin {
+
+    font-family: "Fira Sans Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+.full {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ebedf8;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background-color: white;
+    color: rgb(9, 161, 92);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: none;
+    border: 2px solid rgb(9, 161, 92);
+    text-align: center;
+
+
+}
+.button:hover{
+    background-color: #C6E4D6;
+}
+h1 {
+    font-size: 40px;
+  }
+
+/* Banner Design */
+
+.banner {
+    display: flex;
+    background-color: #C6E4D6;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 80px 100px;
+}
+
+.banner-body {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner-heading {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-p {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.banner-btn {
+    background-color: rgb(0, 106, 80);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+
+.banner-btn:hover{
+    background-color:#022d20e2;
+}
