@@ -287,3 +287,56 @@ select:hover {
 .date {
     display: block;
 }
+
+/* Donate */
+
+.donate-body {
+    text-align: center;
+}
+
+.tk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.btn-tk {
+    color: rgb(57, 56, 56);
+    padding: 30px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.btn-tk:hover{
+    background-color: #C6E4D6;
+}
+
+.form {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 350px ;
+   
+
+}
+
+.donate-btn {
+    background-color: rgb(33, 160, 105);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.donate-btn:hover{
+    background-color: #004d36;
+}
