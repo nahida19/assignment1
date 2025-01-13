@@ -340,3 +340,145 @@ select:hover {
 .donate-btn:hover{
     background-color: #004d36;
 }
+/* Newsletter */
+
+.newsletter {
+    background-color: #C6E4D6;
+    padding: 60px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+.subscribe-btn {
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(33, 160, 105);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.email-input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-right: 2px solid #006A4E;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.subscribe-btn:hover {
+    background-color: #004d36;
+}
+
+/* Footer */
+
+.ending {
+    background-color:white;
+    padding: 20px;
+}
+
+#end-heading {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    gap: 15px;
+}
+/* Newsletter */
+
+.newsletter {
+    background-color: #C6E4D6;
+    padding: 60px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+.subscribe-btn {
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(33, 160, 105);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.email-input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-right: 2px solid #006A4E;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.subscribe-btn:hover {
+    background-color: #004d36;
+}
+
+/* Footer */
+
+.ending {
+    background-color:white;
+    padding: 20px;
+}
+
+#end-heading {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    gap: 15px;
+}
