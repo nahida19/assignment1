@@ -177,4 +177,113 @@ h1 {
 
 .button-ylw:hover {
  background-color: rgb(245, 146, 71);
+}/* Quote */
+
+.quote-box {
+    background-color:white;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+/*Opinion Matters*/
+
+h1 {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    background-color: white;
+    width:100%;
+    height:fit-content;
+    border-radius: 10px;
+}
+th,
+td {
+    border: 1px solid #afcdbf;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color:  #C6E4D6;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #C6E4D6;
+    border-radius: 5px;
+    background-color:  #C6E4D6;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #78eece;
+}
+
+/* Recent news */
+
+
+.news-box {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.satelite {
+    border-radius: 30px;
+}
+
+.news-btn {
+    background-color: rgb(9, 161, 92);
+
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+.news {
+    max-width: 50%;
+}
+
+.news-reverse {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.news-btn:hover{
+    background-color: #004d36;
+}
+
+
+.date {
+    display: block;
 }
